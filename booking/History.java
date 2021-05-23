@@ -82,6 +82,6 @@ public class History implements Comparable<History> {
 
     @Override
     public int compareTo(History obj2) {
-        return Integer.compare(this.getTaxiNo().compareToIgnoreCase(obj2.getTaxiNo()), 0);
+        return this.getTaxiNo().compareToIgnoreCase(obj2.getTaxiNo());
     }
 }
