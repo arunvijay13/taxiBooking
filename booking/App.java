@@ -43,9 +43,9 @@ public class App {
         int pickupTime;
 
         System.out.println("enter the pickup point");
-        pickupPoint =  sc.next().charAt(0);
+        pickupPoint =  sc.next().toUpperCase().charAt(0);
         System.out.println("enter the dropup point");
-        dropPoint = sc.next().charAt(0);
+        dropPoint = sc.next().toUpperCase().charAt(0);
         System.out.println("enter the pickup time");
         pickupTime = sc.nextInt();
         sc.nextLine();
