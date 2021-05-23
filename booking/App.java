@@ -33,10 +33,6 @@ public class App {
                     System.out.println("Thankyou for using taxi application");
                     break;
             }
-
-
-
-
         }
 
     }
